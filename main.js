@@ -186,6 +186,7 @@ function initialiseState() {
           return;
         }
 
+        console.log(subscription);
         // Keep your server in sync with the latest subscription
         sendSubscriptionToServer(subscription);
 
